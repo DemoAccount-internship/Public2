@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: artist-relations-team
+  description: Team responsible for artist-related APIs
+spec:
+  type: team
+  profile:
+    displayName: Artist Relations Team
+  members: []
