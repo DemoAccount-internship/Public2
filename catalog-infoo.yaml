@@ -1,0 +1,13 @@
+# catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  description: This is my custom backend service.
+  tags:
+    - service
+    - backend
+spec:
+  type: service
+  lifecycle: production
+  owner: team-example
