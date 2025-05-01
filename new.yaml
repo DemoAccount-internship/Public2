@@ -1,6 +1,8 @@
-app:
-  title: Scaffolded Backstage App
-  baseUrl: http://localhost:3000
-
-organization:
-  name: My Company
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: production
