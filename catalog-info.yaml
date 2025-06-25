@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloudzero-cost-dashboard
+  description: Dashboard for visualizing cost data from Snowflake
+spec:
+  type: service
+  owner: devops-team
+  lifecycle: production
